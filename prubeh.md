@@ -3,6 +3,12 @@
 ## 1. cvičení
  - požadavky na zápočet
  - opakování Pythonu
- - bubble sort
+ - binární vyhledávání
  - odhady složitosti
+
+## 2. cvičení (plán)
+ - třídící algoritmy
+   - bubble sort
+   - select sort
+ 
 

@@ -10,6 +10,17 @@ Věci probírané na jednotlivých cvičeních najdete na [samostatné stránce]
 
 Cvičení probíhá v jazyku Python 3 a frameworku Qt.
 
+## Požadavky na zápočet
+Celkem budou zadány 3 domácí úkoly po 10 bodech, na zápočet je potřeba získat
+alespoň 23 bodů. Každý domácí úkol bude mít i bonusové části, za které je možné
+získat body navíc.
+
+Práce na cvičeních a vypracovávání domácích úkolů je doporučeno po dvojicích, v
+případě lichého počtu studentů je možné vytvořit trojici. Pracovat je nicméně
+možné i samostatně.
+
+Účast na cvičení je dobrovolná.
+
 ## Programové vybavení
 
 Na cvičení budeme programovat v Pythonu 3 v prostřední [Visual Studio
