@@ -34,3 +34,5 @@ Python pro zvýrazňování syntaxe QML.
 Dále doporučuji nainstalovat Qt Designer z [instalátoru
 Qt](https://www.qt.io/download-qt-installer), abyste mohli snáz navrhovat a
 prohlížet grafické rozhraní.
+
+Více o instalaci viz [návod pro přípravu prostředí](https://github.com/xtompok/PySide2_QML_tutorial/tree/master/00_preparations)
