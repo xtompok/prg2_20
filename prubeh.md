@@ -21,4 +21,22 @@
 
 ## 4.přednáška
  - úvod do Qt
+ - [První](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/01_first_program) a [Druhá](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/02_clicker) lekce tutoriálu
 
+## 4. cvičení
+ - [Třetí](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/02_clicker) lekce tutoriálu
+
+## 5. přednáška
+ - [Čtvrtá](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/04_city_list) lekce tutoriálu
+
+## 5. cvičení
+ - [Pátá](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/05_city_map) lekce tutoriálu
+
+## 6. cvičení
+ - Část [sedmé](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/05_city_map) lekce tutoriálu
+   - jak na model seznamu, kterému se mění počet prvků
+ - fronta a zásobník pomocí interních knihoven Pythonu
+ - zadání 1. DÚ
+
+## 7. cvičení (plán)
+ - stromy
