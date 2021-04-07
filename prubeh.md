@@ -38,5 +38,10 @@
  - fronta a zásobník pomocí interních knihoven Pythonu
  - zadání 1. DÚ
 
-## 7. cvičení (plán)
+## 7. cvičení 
+ - záznam nebyl omylem pořízen
  - stromy
+   - rotace hrany
+
+## 8. cvičení (plán)
+ - vyvažované stromy

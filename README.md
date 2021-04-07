@@ -10,6 +10,8 @@ Věci probírané na jednotlivých cvičeních najdete na [samostatné stránce]
 
 Cvičení probíhá v jazyku Python 3 a frameworku Qt.
 
+Doporučená literatura pro algoritmy a datové struktury je [Průvodce labyrintem algoritmů](http://pruvodce.ucw.cz/) (zdarma ke stažení).
+
 ## Požadavky na zápočet
 Celkem budou zadány 3 domácí úkoly po 10 bodech, na zápočet je potřeba získat
 alespoň 23 bodů. Každý domácí úkol bude mít i bonusové části, za které je možné
