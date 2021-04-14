@@ -43,5 +43,12 @@
  - stromy
    - rotace hrany
 
-## 8. cvičení (plán)
- - vyvažované stromy
+## 8. cvičení
+ - AVL stromy
+   - jak se vyvažuje insert
+   - implementace insertu (bez vyvažování)
+
+## 9. cvičení (plán)
+ - AVL stromy
+   - vyhledávání
+   - vyvažování insertu
