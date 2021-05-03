@@ -7,7 +7,7 @@ class BST(object):
         if self.root is None:
             self.root = Node(num)
         else:
-            self.root.insert(num)
+            self.root = self.root.insert(num)
     
     
     def find(self,num: int)-> bool:
@@ -36,14 +36,17 @@ class Node(object):
         return f"Node({self.data}, {id(self)}): up:{id(self.up)}, left: None, right: None"
 
     def insert(self,num):
+        """ Insert number into AVL Tree.
+        Returns root of self subtree """
+        # Do nothing if number is already present
         if self.data == num:
-            return
+            return self
         
+        # Insert number into BST
         if num < self.data:
             if self.left is None:
                 self.left = Node(num)
                 self.left.up = self
-                return
             else:
                 self.left.insert(num)
         else:
@@ -52,9 +55,40 @@ class Node(object):
                 self.right.up = self
             else:
                 self.right.insert(num)
-        # Tady proběhl insert do nějakého z podstromů
-        # teď potřebuji aktualizovat svoji hloubku
         
+        # Calculate new value of the subtree depth
+        if self.left:
+            ldepth = self.left.depth + 1
+        else:
+            ldepth = 0
+        if self.right:
+            rdepth = self.right.depth + 1
+        else:
+            rdepth = 0
+        
+        # Calculate self depth
+        self.depth = max(ldepth, rdepth)
+        # Dopište určování self.delta
+        self.delta = rdepth - ldepth
+        print(self)
+        print(self.delta)
+
+        if self.delta == 2:
+            if self.right.delta == 1:
+                print("Right son delta 1")
+                return self.rot_right()
+            elif self.right.delta == -1:
+                print("Right son delta -1")
+                return self.rot_rl()
+        elif self.delta == -2:
+            if self.left.delta == 1:
+                print("Left son delta 1")
+                return self.rot_lr()
+            elif self.left.delta == -1:
+                print("Left son delta -1")
+                return self.rot_left()
+
+        return self
 
     def find(self,num: int)->bool:
         """ Recursively find element in the tree. Return True if it exists, False otherwise"""
@@ -102,6 +136,8 @@ class Node(object):
         b.up = y.up
         y.up = tmp
 
+        return y
+
     def rot_left(self):
         """ Rotate edge to the right son """
         x = self
@@ -134,12 +170,45 @@ class Node(object):
         b.up = y.up
         y.up = tmp
 
+        return y
+    
+    def rot_lr(self):
+        """ Double rotation, upper edge is to the left son"""
+        z = self
+        x = z.left
+        y = x.right
+
+        x.rot_right()
+        z.rot_left()
+
+        print(y)
+        return y
+
+    def rot_rl(self):
+        """ Double rotation, upper edge is to the right son"""
+        z = self
+        x = z.right
+        y = x.left
+
+        x.rot_left()
+        z.rot_right()
+
+        print(y)
+        return y
+
 
 bst = BST()
-bst.insert(10)
-bst.insert(8)
-bst.insert(11)
-bst.insert(9)
-print(bst.find(8))
-print(bst.find(10))
-print(bst.find(42))
+
+bst.insert(3)
+bst.insert(1)
+bst.insert(2)
+
+print(bst.root)
+
+#bst.insert(10)
+#bst.insert(8)
+#bst.insert(11)
+#bst.insert(9)
+#print(bst.find(8))
+#print(bst.find(10))
+#print(bst.find(42))

@@ -48,7 +48,24 @@
    - jak se vyvažuje insert
    - implementace insertu (bez vyvažování)
 
-## 9. cvičení (plán)
+## 9. cvičení
  - AVL stromy
    - vyhledávání
    - vyvažování insertu
+
+## 10. cvičení
+ - AVL stromy
+   - dokončení vyvažování
+ - instalace Anacondy
+
+## 11. cvičení
+ - NetworkX
+   - vytvoření grafu
+   - vykreslení grafu
+ - GeoPandas
+   - načtení geodat
+ - GeoPandas + NetworkX
+   - vytvoření grafu z uliční sítě
+## 12. cvičení (plán)
+ - DFS
+ - nejkratší cesty

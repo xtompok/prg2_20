@@ -37,4 +37,6 @@ Dále doporučuji nainstalovat Qt Designer z [instalátoru
 Qt](https://www.qt.io/download-qt-installer), abyste mohli snáz navrhovat a
 prohlížet grafické rozhraní.
 
-Více o instalaci viz [návod pro přípravu prostředí](https://github.com/xtompok/PySide2_QML_tutorial/tree/master/00_preparations)
+Více o instalaci viz [návod pro přípravu prostředí](https://github.com/xtompok/PySide2_QML_tutorial/tree/master/00_preparations).
+
+Jako knihovny pro práci s geodaty budeme používat [NetworkX](https://networkx.org/documentation/stable/index.html) a [GeoPandas](https://geopandas.org/). Pro vizualizaci budeme používat [Matplotlib](https://matplotlib.org/). Tyto knihovny instalujeme přes [Anacondu](https://www.anaconda.com/products/individual), vizte [návod na instalaci](./geo_packages.md). Pro ukázku použití a možností jednotlivých knihoven doporučuji tutoriály pro [NetworkX](https://networkx.org/documentation/stable/tutorial.html), [Pandas](https://networkx.org/documentation/stable/tutorial.html), [GeoPandas](https://geopandas.org/getting_started/introduction.html) a [Matplotlib](https://matplotlib.org/stable/tutorials/index.html).
